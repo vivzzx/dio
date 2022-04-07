@@ -1,0 +1,50 @@
+body {
+    text-align: center;
+    margin: 0;
+}
+
+#game {
+    width: 100vw;
+    height: 100vh;
+    background-color: #0093AB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1 {
+    color: #fff;
+    margin-bottom: 20px;
+    font-size: 3rem;
+}
+
+
+.quadrado {
+    text-align: center;
+    width: 60px;
+    height: 60px;
+    background-color: #006778;
+    color: #006778;
+    display: inline-block;
+    padding: 40px;
+    font-size: 60px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.jogador, .vencedor {
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+button {
+    margin-top: 20px;
+    width: 100px;
+    height: 30px;
+    background-color: #006778;
+    cursor: pointer;
+    padding: 5px;
+    border: 1px solid black;
+    color: #fff;
+}
